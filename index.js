@@ -1,5 +1,5 @@
 let player = {
-    name: "Per",
+    name: "Tanvi",
     chips: 200
 }
 
@@ -28,6 +28,7 @@ function getRandomCard() {
 
 function startGame() {
     isAlive = true
+    hasBlackJack=false
     let firstCard = getRandomCard()
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
